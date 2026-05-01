@@ -449,16 +449,24 @@ span{
   border-radius: 6px;
 }
 
-.contact-form button {
+.contact-form .button {
+  font-size: 14px;
   padding: 12px;
   background: #e23636;
   border: none;
   color: white;
   cursor: pointer;
   border-radius: 6px;
+  text-align: center;
   transition: 0.3s;
 }
+/* .contact-form button a{
+    color:white;
 
-.contact-form button:hover {
+} */
+
+
+
+.contact-form .button:hover{
   background: #b71c1c;
 }
